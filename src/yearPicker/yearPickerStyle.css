@@ -1,0 +1,99 @@
+
+.headerStyle {
+position: absolute;
+right: 0;
+top: 0;
+z-index: 999;
+height: 48px;
+display: flex;
+width: 40px;
+justify-content: center;
+cursor: pointer;
+}
+.headerStyle img {
+  max-width: 21px;
+}
+.StyledCalendarBody {
+  height: calc(239px - 41px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+} 
+
+.StyledCalendarBody span {
+  flex-basis: 25%;
+  max-width: 25%;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(16, 23, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  max-height: 66px;
+  height: 66px;
+  cursor: pointer;
+}
+.StyledCalendarBody span :hover {
+  color: blueviolet;
+}
+.Header {
+  position: absolute;
+  z-index: 999;
+}
+
+.StyledHeader {
+background-color: white;
+width: 268px;
+height: 239px;
+position: absolute;
+z-index: 1000;
+border-radius: 4px;
+}
+.StyledContainer {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(80, 90, 124);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 0;
+  border-radius: 4px 4px 0 0;
+}
+
+.StyledContainer .clickable {
+  cursor: pointer;
+  max-width: 29px;
+  padding: 0 8px;
+  margin-top: 1px;
+
+}
+
+.StyledContainer .clickable img {
+  width: 100%;
+}
+.StyledYearContainer {
+  background-color:  '#db0040 !important';
+  color: '#fff !important'
+}
+.StyledYearContainerActive {
+  color: 'rgb(16, 23, 44) !important'
+}
+
+.StyledYear {
+  margin: 10px;
+}
+
+.BackDrop {
+  position: fixed;
+  opacity: 1;
+  z-index: 100;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}

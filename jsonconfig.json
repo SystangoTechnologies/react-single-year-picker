@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": [
+        "src/components/*"
+      ],
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "common/*": [
+        "src/common/*"
+      ],
+      "reducers/*": [
+        "src/reducers/*"
+      ],
+      "sagas/*": [
+        "src/sagas/*"
+      ],
+      "actions/*": [
+        "src/actions/*"
+      ],
+      "service/*": [
+        "src/service/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

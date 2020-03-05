@@ -1,0 +1,17 @@
+{
+  "short_name": "React Year Picker APP",
+  "name": "Welcome to React Year Picker APP",
+  "start_url": "/",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#6610f2",
+  "background_color": "#20c997",
+  "gcm_sender_id": "103953800507",
+  "icons": [
+    {
+      "src":  "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
