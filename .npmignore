@@ -9,6 +9,7 @@
 
 # production
 /src/
+.babelrc
 
 # misc
 .DS_Store

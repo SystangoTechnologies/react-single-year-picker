@@ -1,4 +1,5 @@
 const plugins = [
+  ["latest"],
   [
     require.resolve('babel-plugin-module-resolver'),
     {
@@ -8,6 +9,5 @@ const plugins = [
       }
     }
     
-  ],
-  [require.resolve('@babel/plugin-proposal-class-properties'), {}]
+  ]
 ];
