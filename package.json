@@ -1,6 +1,6 @@
 {
   "name": "react-single-year-picker",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": false,
   "main": "src/yearPicker",
   "devDependencies": {
