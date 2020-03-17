@@ -8,8 +8,14 @@
 /coverage
 
 # production
+/build
 /src/
 .babelrc
+.babel.config.js
+.firebase.json
+firebase.json
+.firebaserc
+.firebase
 
 # misc
 .DS_Store
