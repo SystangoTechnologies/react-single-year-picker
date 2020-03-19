@@ -31,12 +31,12 @@ const App = () => {
 }
 ```
 ##Description
-* *React-single-year-picker* Component can be used as an Year picker as well as react-picker also, only just need to pass array and then all elements will be displayed in the calendar format may be array contains *img/string/emoticons* etc. whichever type of value want to pick from a array this will be helpful for you.
+* *React-single-year-picker*  Component can be used as a Year picker as well as react-picker also, only just need to pass the array and then all elements will be displayed in the calendar format may be array contains *image/string/emoticons*, etc. whichever type of value want to pick from an array this will be helpful for you.
+* Just pass an array and then open component then select or click any of element then it will return you the selected value from an array which is getting from *onSelect*  prop.
 
-* Just pass an array and then open component then select or click any of element then it will return you the selected value from an array which is get from *onSelect* prop. 
-
-```onSelect={(e) => console.log(e)}```
-> Output: Selected value.
+```onSelect={(e) => console.log(e)}
+Output: Selected value like 2019.
+```
 
 
 ##Note
@@ -44,12 +44,12 @@ const App = () => {
  
 ##Props
 
-* [yearArray]: Array of year or any type of array you want to access.
-* [onSelect]: on item click event.
-* [hideInput]: By default it is false and if you want to hide input element please set true.
-* [activeIcon]: This props is for Calendar Icon, accept Image or Icon src url.
-* [icon]: Inactive calendar icon, accept Image or Icon src url.
-* [leftIcon]: Picker left icon, accept Image or Icon src url.
-* [rightIcon]: Picker right icon, accept Image or Icon src url.
-* [minRange]: Min range of the year picker and this is only used for years.
-* [maxRange]: Max range of the year picker and this is only used for years.
+>[yearArray]: Array of year or any type of array you want to access.
+>[onSelect]: on item click event.
+>[hideInput]: By default it is false and if you want to hide input element please set true.
+>[activeIcon]: This props is for Calendar Icon, accept Image or Icon src url.
+>[icon]: Inactive calendar icon, accept Image or Icon src url.
+>[leftIcon]: Picker left icon, accept Image or Icon src url.
+>[rightIcon]: Picker right icon, accept Image or Icon src url.
+>[minRange]: Min range of the year picker and this is only used for years.
+>[maxRange]: Max range of the year picker and this is only used for years.

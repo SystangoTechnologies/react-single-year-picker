@@ -40,6 +40,7 @@ cursor: pointer;
 .Header {
   position: absolute;
   z-index: 999;
+  margin-top: 35px;
 }
 
 .StyledHeader {
@@ -94,8 +95,9 @@ border-radius: 4px;
   left: 0px;
 }
 .disabled {
-  pointer-events: none;
+  /* pointer-events: none; */
   opacity: 0.3;
+  cursor: not-allowed !important;
 }
 .wd-15 {
   width: 15px !important;
@@ -104,4 +106,10 @@ border-radius: 4px;
     /* align-items: center; */
     /* justify-content: space-between; */
     display: flex;
+}
+
+.img-style{
+  height: 30px !important;
+  width: 30px !important;
+  cursor: pointer !important;
 }

@@ -117,9 +117,9 @@ class YearPicker extends React.Component {
         return (
             <div className="year-div">
                 {!hideInput && <input type="text" value={selectedValue} readOnly />}
-                <img style={{ height: '30px', width: '30px' }} onClick={this.handlePicker} src={
+                <img className="img-style" onClick={this.handlePicker} src={
                     showPicker ?
-                        icon ? icon : CalendarIcon : activeIcon ? activeIcon : ActiveCalendarIcon} alt="calender-icon" />
+                        icon ? icon : ActiveCalendarIcon : activeIcon ? activeIcon : CalendarIcon} alt="calender-icon" />
                 {showPicker &&
                     <div className="Header">
                         <div className="StyledHeader">

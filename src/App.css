@@ -24,6 +24,7 @@
 }
 
 .btn {
+  cursor: pointer;
   border: 1px solid #ccc;
   background: #ccc;
   font-size: 14px;
@@ -45,6 +46,7 @@
 .year-div input {
   border: 0;
   margin-right: 5px;
+  width: 240px;
 }
 .list-link {
   margin: 0 0 10px;
