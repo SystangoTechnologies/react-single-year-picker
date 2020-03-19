@@ -44,12 +44,12 @@ Output: Selected value like 2019.
  
 ##Props
 
->[yearArray]: Array of year or any type of array you want to access.
->[onSelect]: on item click event.
->[hideInput]: By default it is false and if you want to hide input element please set true.
->[activeIcon]: This props is for Calendar Icon, accept Image or Icon src url.
->[icon]: Inactive calendar icon, accept Image or Icon src url.
->[leftIcon]: Picker left icon, accept Image or Icon src url.
->[rightIcon]: Picker right icon, accept Image or Icon src url.
->[minRange]: Min range of the year picker and this is only used for years.
->[maxRange]: Max range of the year picker and this is only used for years.
+* *yearArray*: Array of year or any type of array you want to access.
+* *onSelect*: on item click event.
+* *hideInput*: By default it is false and if you want to hide input element please set true.
+* *activeIcon*: This props is for Calendar Icon, accept Image or Icon src url.
+* *icon*: Inactive calendar icon, accept Image or Icon src url.
+* *leftIcon*: Picker left icon, accept Image or Icon src url.
+* *rightIcon*: Picker right icon, accept Image or Icon src url.
+* *minRange*: Min range of the year picker and this is only used for years.
+* *maxRange*: Max range of the year picker and this is only used for years.
