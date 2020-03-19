@@ -14,13 +14,47 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.btn {
+  border: 1px solid #ccc;
+  background: #ccc;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 5px;
+  padding: 6px 15px;
+}
+.year-div {
+  /* background: #fff; */
+  padding: 3px 5px;
+  margin-top: 5px;
+}
+.date-box {
+  margin-top: 20px;
+}
+.date-box label {
+  margin-bottom: 10px;
+}
+.year-div input {
+  border: 0;
+  margin-right: 5px;
+}
+.list-link {
+  margin: 0 0 10px;
+  align-items: center;
+  display: flex;
+}
+.list-link > a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none
 }
 
 @keyframes App-logo-spin {

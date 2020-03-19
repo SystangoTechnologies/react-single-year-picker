@@ -100,3 +100,8 @@ border-radius: 4px;
 .wd-15 {
   width: 15px !important;
 }
+.year-div{
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    display: flex;
+}
