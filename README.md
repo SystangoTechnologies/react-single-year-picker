@@ -6,9 +6,10 @@
 
 ## Quick Overview
 
-
-`npm install react-single-year-picker --save`
-`yarn install react-single-year-picker --save`
+```sh
+npm install react-single-year-picker --save
+yarn install react-single-year-picker --save
+```
 
 ```sh
 import React, { useState } from 'react';
