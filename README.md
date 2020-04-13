@@ -2,13 +2,14 @@
 
 >A Year picker component or picker for React.
 >Check out the [Demo](https://react-year-picker.firebaseapp.com/).
-
+![A Year picker component or picker for React](singleYearPicker.gif)
 ##Installation
 
 `npm install react-single-year-picker --save`
 
 ```
 import React, { useState } from 'react';
+import YearPicker from 'react-single-year-picker'
 
 const App = () => {
   const [yearSelected, setYear] = useState(1990);
